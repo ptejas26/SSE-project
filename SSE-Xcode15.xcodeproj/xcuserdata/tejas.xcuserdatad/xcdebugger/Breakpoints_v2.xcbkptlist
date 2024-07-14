@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "49C46B93-31DC-450C-AEEB-1C7336D8CB2D"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "A35BC81E-1324-46DE-AE4D-3BC90AE2FF9C"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SSE-Xcode15/ContentView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "22"
+            endingLineNumber = "22"
+            landmarkName = "initSSE()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "A35BC81E-1324-46DE-AE4D-3BC90AE2FF9C - 30ddb998a2ef8b99"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SSE_Xcode15.ContentView.initSSE() -&gt; ()"
+                  moduleName = "SSE-Xcode15"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/tejas/Downloads/Tejas/Learning/Swift/SSE-Xcode15/SSE-Xcode15/ContentView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "23"
+                  endingLineNumber = "23"
+                  offsetFromSymbolStart = "472">
+               </Location>
+               <Location
+                  uuid = "A35BC81E-1324-46DE-AE4D-3BC90AE2FF9C - 30ddb998a2ef8b99"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SSE_Xcode15.ContentView.initSSE() -&gt; ()"
+                  moduleName = "SSE-Xcode15"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/tejas/Downloads/Tejas/Learning/Swift/SSE-Xcode15/SSE-Xcode15/ContentView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "23"
+                  endingLineNumber = "23"
+                  offsetFromSymbolStart = "428">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "BAC327DA-CACA-4F62-BDFD-EE68DCD64086"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SSE-Xcode15/ContentView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "28"
+            endingLineNumber = "28"
+            landmarkName = "initSSE()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "BAC327DA-CACA-4F62-BDFD-EE68DCD64086 - b71ab5a1c87086fa"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; () in SSE_Xcode15.ContentView.initSSE() -&gt; ()"
+                  moduleName = "SSE-Xcode15"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/tejas/Downloads/Tejas/Learning/Swift/SSE-Xcode15/SSE-Xcode15/ContentView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "28"
+                  endingLineNumber = "28"
+                  offsetFromSymbolStart = "36">
+               </Location>
+               <Location
+                  uuid = "BAC327DA-CACA-4F62-BDFD-EE68DCD64086 - b71ab5a1c87086bc"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; () in SSE_Xcode15.ContentView.initSSE() -&gt; ()"
+                  moduleName = "SSE-Xcode15"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/tejas/Downloads/Tejas/Learning/Swift/SSE-Xcode15/SSE-Xcode15/ContentView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "30"
+                  endingLineNumber = "30"
+                  offsetFromSymbolStart = "36">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "AD43B733-09E7-4227-A3F6-E6D91F01C056"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SSE-Xcode15/ContentView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "39"
+            endingLineNumber = "39"
+            landmarkName = "initSSE()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "AD43B733-09E7-4227-A3F6-E6D91F01C056 - 461c73221dcd4352"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #2 (Swift.Optional&lt;Swift.Int&gt;, Swift.Optional&lt;Swift.Bool&gt;, Swift.Optional&lt;__C.NSError&gt;) -&gt; () in SSE_Xcode15.ContentView.initSSE() -&gt; ()"
+                  moduleName = "SSE-Xcode15"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/tejas/Downloads/Tejas/Learning/Swift/SSE-Xcode15/SSE-Xcode15/ContentView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "37"
+                  endingLineNumber = "37"
+                  offsetFromSymbolStart = "508">
+               </Location>
+               <Location
+                  uuid = "AD43B733-09E7-4227-A3F6-E6D91F01C056 - 461c73221dcd4314"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #2 (Swift.Optional&lt;Swift.Int&gt;, Swift.Optional&lt;Swift.Bool&gt;, Swift.Optional&lt;__C.NSError&gt;) -&gt; () in SSE_Xcode15.ContentView.initSSE() -&gt; ()"
+                  moduleName = "SSE-Xcode15"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/tejas/Downloads/Tejas/Learning/Swift/SSE-Xcode15/SSE-Xcode15/ContentView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "39"
+                  endingLineNumber = "39"
+                  offsetFromSymbolStart = "460">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "2DDF3F6E-1C18-4A9E-88D4-E57C659554D3"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SSE-Xcode15/ContentView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "55"
+            endingLineNumber = "55"
+            landmarkName = "initSSE()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "2DDF3F6E-1C18-4A9E-88D4-E57C659554D3 - 855e2d3d32f2ad87"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #4 (Swift.Optional&lt;Swift.String&gt;, Swift.Optional&lt;Swift.String&gt;, Swift.Optional&lt;Swift.String&gt;) -&gt; () in SSE_Xcode15.ContentView.initSSE() -&gt; ()"
+                  moduleName = "SSE-Xcode15"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/tejas/Downloads/Tejas/Learning/Swift/SSE-Xcode15/SSE-Xcode15/ContentView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "52"
+                  endingLineNumber = "52"
+                  offsetFromSymbolStart = "112">
+               </Location>
+               <Location
+                  uuid = "2DDF3F6E-1C18-4A9E-88D4-E57C659554D3 - 6a8caa88807a1723"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #5 (Swift.Optional&lt;Swift.String&gt;, Swift.Optional&lt;Swift.String&gt;, Swift.Optional&lt;Swift.String&gt;) -&gt; () in SSE_Xcode15.ContentView.initSSE() -&gt; ()"
+                  moduleName = "SSE-Xcode15"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/tejas/Downloads/Tejas/Learning/Swift/SSE-Xcode15/SSE-Xcode15/ContentView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "55"
+                  endingLineNumber = "55"
+                  offsetFromSymbolStart = "112">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "7C4D1328-6F70-4888-B035-A1EF62A0D5A5"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SSE-Xcode15/ContentView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "48"
+            endingLineNumber = "48"
+            landmarkName = "initSSE()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "A91DBA37-4A4E-409F-B4B7-804DEDF79E7E"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SSE-Xcode15/ContentView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "51"
+            endingLineNumber = "51"
+            landmarkName = "initSSE()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

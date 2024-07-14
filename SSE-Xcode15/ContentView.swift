@@ -6,56 +6,53 @@
 //
 
 import SwiftUI
-import SwiftData
 
 struct ContentView: View {
-    @Environment(\.modelContext) private var modelContext
-    @Query private var items: [Item]
-
     var body: some View {
-        NavigationSplitView {
-            List {
-                ForEach(items) { item in
-                    NavigationLink {
-                        Text("Item at \(item.timestamp, format: Date.FormatStyle(date: .numeric, time: .standard))")
-                    } label: {
-                        Text(item.timestamp, format: Date.FormatStyle(date: .numeric, time: .standard))
-                    }
-                }
-                .onDelete(perform: deleteItems)
-            }
-            .toolbar {
-                ToolbarItem(placement: .navigationBarTrailing) {
-                    EditButton()
-                }
-                ToolbarItem {
-                    Button(action: addItem) {
-                        Label("Add Item", systemImage: "plus")
-                    }
-                }
-            }
-        } detail: {
-            Text("Select an item")
+        VStack {
+            Text("Hello wRold")
+        }
+        .onAppear {
+            initSSE()
         }
     }
+    
+    private func initSSE() {
+        let serverURL = URL(string: "http://127.0.0.1:8080/stream")!
 
-    private func addItem() {
-        withAnimation {
-            let newItem = Item(timestamp: Date())
-            modelContext.insert(newItem)
+        let eventSource: EventSource = EventSource(url: serverURL, headers: ["Authorization": "Bearer basic-auth-token"])
+        
+        eventSource.connect()
+        
+        eventSource.onOpen {
+//            self?.status.backgroundColor = UIColor(red: 166/255, green: 226/255, blue: 46/255, alpha: 1)
+//            self?.status.text = "CONNECTED"
+            print("CONNECTED")
         }
-    }
-
-    private func deleteItems(offsets: IndexSet) {
-        withAnimation {
-            for index in offsets {
-                modelContext.delete(items[index])
+        
+        eventSource.onComplete { statusCode, reconnect, error in
+//            self?.status.backgroundColor = UIColor(red: 249/255, green: 38/255, blue: 114/255, alpha: 1)
+//            self?.status.text = "DISCONNECTED"
+//
+//            guard reconnect ?? false else { return }
+//
+            print("DISCONNECTED")
+            let retryTime = eventSource.retryTime ?? 3000
+            DispatchQueue.main.asyncAfter(deadline: .now() + .milliseconds(retryTime)) {
+                eventSource.connect()
+                eventSource.disconnect()
             }
         }
+        
+        eventSource.onMessage { id, event, data in
+            print(id, event, data)
+        }
+        eventSource.addEventListener("counter") { id, event, data in
+            print(id, event, data)
+        }
+        
+        eventSource.addEventListener("user-connected") { id, event, data in
+            print(id, event, data)
+        }
     }
-}
-
-#Preview {
-    ContentView()
-        .modelContainer(for: Item.self, inMemory: true)
 }

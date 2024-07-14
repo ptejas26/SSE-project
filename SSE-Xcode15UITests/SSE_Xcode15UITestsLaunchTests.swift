@@ -19,6 +19,7 @@ final class SSE_Xcode15UITestsLaunchTests: XCTestCase {
 
     func testLaunch() throws {
         let app = XCUIApplication()
+        
         app.launch()
 
         // Insert steps here to perform after app launch but before taking a screenshot,
